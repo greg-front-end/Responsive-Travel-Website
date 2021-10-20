@@ -489,3 +489,68 @@ input {
 .video__button-icon {
     font-size: 1.2rem;
 }
+
+/* ====== PLACES ======= */
+.places__card,
+.places__img {
+    height: 230px;
+}
+.places__container {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+}
+.places__card {
+    position: relative;
+    overflow: var(--img-hidden);
+}
+.places__content,
+.places__title {
+    color: var(--white-color);
+}
+.places__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .75rem .75rem 1rem;
+}
+.places__rating {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+}
+.places__rating-icon {
+    font-size: .75rem;
+    margin-right: var(--mb-0-25);
+}
+.places__rating-number {
+    font-size: var(--small-font-size);
+}
+.places__sub,
+.places__price {
+    display: block;
+}
+.places__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+.places__sub {
+    font-size: var(--smaller-font-size);
+    margin-bottom: var(--mb-1-25);
+}
+.places__button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: .75rem 1rem;
+}
+.places__img {
+    transition: var(--img-transition);
+}
+.places__card:hover .places__img {
+    transform: var(--img-scale);
+}
