@@ -81,6 +81,24 @@ body.dark-theme {
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
 
+/*========== BUTTON Dark/LIGHT ==========*/
+.nav__dark {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    position: absolute;
+    left: 3rem;
+    bottom: 4rem;
+}
+.change-theme,
+.change-theme-name {
+    cursor: pointer;
+    font-size: 1rem;
+}
+.change-theme-name {
+    font-size: var(--small-font-size); 
+}
+
     /*========== Base ==========*/
 *{
     box-sizing: border-box;
