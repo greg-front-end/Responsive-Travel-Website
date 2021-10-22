@@ -148,6 +148,10 @@ input {
     outline: none;
 }
 
+.main {
+    overflow-x: hidden;
+}
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
     padding: 4.5rem 0 2.5rem 0;
@@ -855,11 +859,11 @@ input {
     .places__contaner {
         padding-top: 2rem;
     }
-    .experience__overlay::nth-child(1) {
+    .experience__overlay:nth-child(1) {
         width: 363px;
         margin-right: 4rem;
     }
-    .experience__overlay::nth-child(2) {
+    .experience__overlay:nth-child(2) {
         width: 160px;
     }
     .subscribe__bg {
@@ -922,11 +926,11 @@ input {
         margin: var(--mb-1);
         column-gap: 3.5rem;
     }
-    .experience__overlay::nth-child(1) {
+    .experience__overlay:nth-child(1) {
         width: 463px;
         margin-right: 7rem;
     }
-    .experience__overlay::nth-child(2) {
+    .experience__overlay:nth-child(2) {
         width: 220px;
         top: 3rem;
     }
